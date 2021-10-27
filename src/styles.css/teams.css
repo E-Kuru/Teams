@@ -1,0 +1,27 @@
+header{
+    text-align: center;
+}
+
+.teams{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 2%;
+}
+
+.oneTeam{
+    margin: 2% 0 0 1%;
+    text-align: center;
+    width: 20%;
+    height: 420px;
+    border:solid gray 1px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.oneTeam img{
+    width: 40%;
+}

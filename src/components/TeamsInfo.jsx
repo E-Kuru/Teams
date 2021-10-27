@@ -1,6 +1,7 @@
 import React from "react";
 
 import Teams from '../teams.json'
+import '../styles.css/teams.css'
 
 class TeamsInfo extends React.Component {
 
@@ -25,7 +26,7 @@ class TeamsInfo extends React.Component {
                     {Teams.map(e =>  (
                         <div className="oneTeam">
 
-                            <h2>Name {e.shortName}</h2>
+                            <h2>{e.shortName}</h2>
                             <img src={e.crestUrl} alt="image" />
                             <h3>Stade : {e.venue}</h3>
                             <ul>
